@@ -1,50 +1,3 @@
-# PKB No Screenshots
-    Flutter plugin to enable, disable or toggle screenshot support in your application.  ios and android.
-
-## Usage
-```
-const Text(
-              'ScreenshotIOS',
-            ),
-            ElevatedButton(
-              onPressed: () {
-                DisableScreenshots.disable_enable('');
-                DisableScreenshots.ScreenshotCallbackIos().then((value) => {
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          Close(),
-                    ),
-                  ),
-                });
-
-              },
-              child:  Text('Disabled'),
-            ),
-
-            const Text(
-              'ScreenshotAndroid',
-            ),
-            ElevatedButton(
-              child: const Text('Press to turn off screenshot'),
-              onPressed: ()  {
-                DisableScreenshots.disable_enable('D');
-              },
-            ),
-            ElevatedButton(
-              child: const Text('Press to turn on screenshot'),
-              onPressed: ()  {
-                DisableScreenshots.disable_enable('E');
-              },
-            ),
-```
-
-
-## Add native ios 
-    Add code to your ios/Runner/AppDelegate.swift dependencies
-## Usage
-```
 import UIKit
 import Flutter
 
@@ -80,5 +33,3 @@ extension UIWindow {
         field.leftViewMode = .always
     }
 }
-
-```
