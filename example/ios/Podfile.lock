@@ -1,15 +1,21 @@
 PODS:
   - Flutter (1.0.0)
+  - screenshot_callback (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - screenshot_callback (from `.symlinks/plugins/screenshot_callback/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  screenshot_callback:
+    :path: ".symlinks/plugins/screenshot_callback/ios"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  screenshot_callback: b173e7f4bd8d2ef14a9a5e5a77c0ac6a47578608
 
 PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
 

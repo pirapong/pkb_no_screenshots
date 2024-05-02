@@ -35,13 +35,13 @@ class DisableScreenshots {
     }
   }
 
-  static Future ScreenshotCallbackIos() async {
-    String status = 'T';
-    late ScreenshotCallback screenshotCallback;
-    screenshotCallback =  ScreenshotCallback();
-    screenshotCallback.addListener(() {});
-    return status;
-  }
+  // static Future ScreenshotCallbackIos() async {
+  //   String status = 'T';
+  //   late ScreenshotCallbackIos ScreenshotCallbackIos;
+  //   ScreenshotCallbackIos =  ScreenshotCallbackIos();
+  //   ScreenshotCallbackIos.addListener(() {});
+  //   return status;
+  // }
 
   static Future _disableScreenshotsIOS() async {
     const platform = MethodChannel('disableScreenshots');

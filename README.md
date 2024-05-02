@@ -9,16 +9,6 @@ const Text(
             ElevatedButton(
               onPressed: () {
                 DisableScreenshots.disable_enable('');
-                DisableScreenshots.ScreenshotCallbackIos().then((value) => {
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          Close(),
-                    ),
-                  ),
-                });
-
               },
               child:  Text('Disabled'),
             ),
