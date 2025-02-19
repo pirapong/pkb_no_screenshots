@@ -1,6 +1,6 @@
-# example
+# pkb_no_screenshots_example
 
-A new Flutter project.
+Demonstrates how to use the pkb_no_screenshots plugin.
 
 ## Getting Started
 

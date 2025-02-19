@@ -31,7 +31,7 @@ const Text(
 ```
 
 
-## Add native ios 
+## Add native ios
     Add code to your ios/Runner/AppDelegate.swift dependencies
 ## Usage
 ```

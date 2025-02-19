@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 class ScreenshotCallbackIos {
   static const MethodChannel _channel =
   const MethodChannel('flutter.moum/screenshot_callback');
+  // const MethodChannel('disableScreenshots');
 
   /// Functions to execute when callback fired.
   List<VoidCallback> onCallbacks = <VoidCallback>[];

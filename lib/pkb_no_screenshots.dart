@@ -6,7 +6,6 @@ import 'callback.dart';
 
 class DisableScreenshots {
 
-
   static Future disable_enable(status) async {
     if (Platform.isAndroid) {
       status == 'D' ?

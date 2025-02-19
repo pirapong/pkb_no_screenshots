@@ -98,10 +98,12 @@
 
 
 
-import 'package:example/close.dart';
+// import 'package:example/close.dart';
 import 'package:flutter/material.dart';
 import 'package:pkb_no_screenshots/callback.dart';
 import 'package:pkb_no_screenshots/pkb_no_screenshots.dart';
+
+import 'close.dart';
 
 void main() => runApp(MyApp());
 
@@ -125,17 +127,18 @@ class _MyAppState extends State<MyApp> {
   Future<void> initScreenshotCallbackIOS() async {
     screenshotCallback = ScreenshotCallbackIos();
     screenshotCallback.addListener(() {
+      print(' NO Screenshot');
     });
 
     screenshotCallback.addListener(() {
       print(' NO Screenshot');
-      // Navigator.pushReplacement(
-      //   context,
-      //   MaterialPageRoute(
-      //     builder: (context) =>
-      //         Close(),
-      //   ),
-      // );
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) =>
+              Close(),
+        ),
+      );
     });
   }
 
