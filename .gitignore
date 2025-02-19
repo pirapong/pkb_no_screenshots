@@ -31,3 +31,12 @@ migrate_working_dir/
 .flutter-plugins
 .flutter-plugins-dependencies
 build/
+
+  android/src/.DS_Store
+  android/src/main/.DS_Store
+  android/src/main/kotlin/.DS_Store
+  android/src/main/kotlin/com/.DS_Store
+  android/src/main/kotlin/com/pkb/.DS_Store
+  pkb_no_screenshots.iml
+  pubspec.lock
+
