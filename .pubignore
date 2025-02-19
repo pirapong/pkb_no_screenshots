@@ -1,0 +1,23 @@
+# ไม่ต้องการ publish ไฟล์ระบบ macOS
+.DS_Store
+
+# ไม่ต้องการ publish build files
+build/
+android/.gradle/
+android/app/build/
+
+# IntelliJ/Android Studio project files
+.idea/
+*.iml
+
+# ไม่ต้องการ publish pubspec.lock (เฉพาะแพ็กเกจ)
+pubspec.lock
+
+ android/src/.DS_Store
+  android/src/main/.DS_Store
+  android/src/main/kotlin/.DS_Store
+  android/src/main/kotlin/com/.DS_Store
+  android/src/main/kotlin/com/pkb/.DS_Store
+  pkb_no_screenshots.iml
+  pubspec.lock
+
